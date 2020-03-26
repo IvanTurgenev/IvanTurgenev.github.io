@@ -7,9 +7,46 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>GPLV3</copyright>
+    <lastBuildDate>Thu, 26 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>brew</title>
+      <link>/tags/brew/</link>
+      <pubDate>Thu, 26 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/brew/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fix</title>
+      <link>/tags/fix/</link>
+      <pubDate>Thu, 26 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/fix/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>os x</title>
+      <link>/tags/os-x/</link>
+      <pubDate>Thu, 26 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/os-x/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>terminal</title>
+      <link>/tags/terminal/</link>
+      <pubDate>Thu, 26 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/terminal/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
