@@ -8,7 +8,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 <meta name="description" content="Application crashes immediately upon launch. A system dialog is opened.
 Process: KeePassXC [5529] Path: /Applications/KeePassXC.app/Contents/MacOS/KeePassXC Identifier: KeePassXC Version: ??? Code Type: X86-64 (Native) Parent Process: bash [5523] Responsible: Terminal [2020] User ID: 501 To fix this do this in the terminal.
-% brew cask uninstall keepassxc % brew cleanup % brew cask install keepassxc Gthub bug report on this issue." />
+brew cask uninstall keepassxc brew cleanup brew cask install keepassxc Gthub bug report on this issue." />
 <meta name="keywords" content="mac os x, catalina, keepassxc, brew" />
 <meta name="robots" content="noodp" />
 <link rel="canonical" href="/posts/my-first-post/" />
@@ -39,7 +39,7 @@ Process: KeePassXC [5529] Path: /Applications/KeePassXC.app/Contents/MacOS/KeePa
 <meta property="og:title" content="keepassxc crash on catalina update :: here, take this fix">
 <meta property="og:description" content="Application crashes immediately upon launch. A system dialog is opened.
 Process: KeePassXC [5529] Path: /Applications/KeePassXC.app/Contents/MacOS/KeePassXC Identifier: KeePassXC Version: ??? Code Type: X86-64 (Native) Parent Process: bash [5523] Responsible: Terminal [2020] User ID: 501 To fix this do this in the terminal.
-% brew cask uninstall keepassxc % brew cleanup % brew cask install keepassxc Gthub bug report on this issue." />
+brew cask uninstall keepassxc brew cleanup brew cask install keepassxc Gthub bug report on this issue." />
 <meta property="og:url" content="/posts/my-first-post/" />
 <meta property="og:site_name" content="keepassxc crash on catalina update" />
 <meta property="og:image" content="/">
@@ -127,12 +127,31 @@ Parent Process:        bash [5523]
 Responsible:           Terminal [2020]
 User ID:               501
 </code></pre><p>To fix this do this in the terminal.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"> % brew cask uninstall keepassxc
- % brew cleanup
- % brew cask install keepassxc
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">brew cask uninstall keepassxc
+brew cleanup
+brew cask install keepassxc
 </code></pre></div><p><a href="https://github.com/keepassxreboot/keepassxc/issues/4398">Gthub bug report on this issue.</a></p>
 
       </div></div>
+  
+  <div class="pagination">
+    <div class="pagination__title">
+      <span
+        class="pagination__title-h">Read other posts</span>
+      <hr />
+    </div>
+    <div class="pagination__buttons">
+      
+      <span class="button previous">
+        <a href="/posts/install-emacs-os-x/">
+          <span class="button__icon">←</span>
+          <span class="button__text">install emacs and doom-emacs on os x catalina with brew</span>
+        </a>
+      </span>
+      
+      
+    </div>
+  </div>
   
 
   <script src="https://utteranc.es/client.js"

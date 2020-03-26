@@ -22,11 +22,29 @@
     </item>
     
     <item>
+      <title>emacs</title>
+      <link>/tags/emacs/</link>
+      <pubDate>Thu, 26 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/emacs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>fix</title>
       <link>/tags/fix/</link>
       <pubDate>Thu, 26 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>/tags/fix/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>install</title>
+      <link>/tags/install/</link>
+      <pubDate>Thu, 26 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/install/</guid>
       <description></description>
     </item>
     

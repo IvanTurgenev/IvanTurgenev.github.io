@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>here, take this fix</title>
-    <link>/</link>
-    <description>Recent content on here, take this fix</description>
+    <title>install on here, take this fix</title>
+    <link>/tags/install/</link>
+    <description>Recent content in install on here, take this fix</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>GPLV3</copyright>
     <lastBuildDate>Thu, 26 Mar 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/install/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -22,17 +22,6 @@
 brew cask install emacs Next open and close emacs so it creates ~/.emacs.d, then install doom-emacs.
 git clone https://github.com/hlissner/doom-emacs ~/.emacs.d ~/.emacs.d/bin/doom install After install, configure and enable modules you need. Put this on your ~/.doom.d/config.el so you will be able to insert special characters with the right option key.
 ;; I need my Spanish ñ. (setq mac-right-option-modifier nil) </description>
-    </item>
-    
-    <item>
-      <title>keepassxc crash on catalina update</title>
-      <link>/posts/my-first-post/</link>
-      <pubDate>Thu, 26 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/my-first-post/</guid>
-      <description>Application crashes immediately upon launch. A system dialog is opened.
-Process: KeePassXC [5529] Path: /Applications/KeePassXC.app/Contents/MacOS/KeePassXC Identifier: KeePassXC Version: ??? Code Type: X86-64 (Native) Parent Process: bash [5523] Responsible: Terminal [2020] User ID: 501 To fix this do this in the terminal.
-brew cask uninstall keepassxc brew cleanup brew cask install keepassxc Gthub bug report on this issue.</description>
     </item>
     
   </channel>
