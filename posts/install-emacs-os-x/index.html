@@ -81,6 +81,31 @@ git clone https://github.com/hlissner/doom-emacs ~/.emacs.d ~/.emacs.d/bin/doom 
     <div class="menu-trigger">menu</div>
   </div>
   
+    <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+      
+    
+
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/about">About</a></li>
+      
+    
+    
+  </ul>
+</nav>
+
+  
 </header>
 
 
@@ -130,8 +155,8 @@ modules</a>
 you need.
 Put this on your <code>~/.doom.d/config.el</code> so you will be able to insert special characters
 with the right option key.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lisp" data-lang="lisp"><span style="color:#75715e">;; I need my Spanish ñ.</span>
-(<span style="color:#66d9ef">setq</span> mac-right-option-modifier <span style="color:#66d9ef">nil</span>)
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span style="color:#75715e">;; I need my Spanish ñ.</span>
+(setq mac-right-option-modifier <span style="color:#66d9ef">nil</span>)
 </code></pre></div>
       </div></div>
   
